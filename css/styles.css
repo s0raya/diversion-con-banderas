@@ -8,3 +8,61 @@ body {
 h1 {
   color: #333;
 }
+
+.countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 10px;
+}
+
+.infoCountry {
+  display: none;
+  position:fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: white;
+  padding: 20px 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+
+.infoCountry input {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+}
+
+
+.flags img {
+  width: 150px;
+}
+
+.flags {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 175px;
+  width: 150px;
+}
+
+
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+
